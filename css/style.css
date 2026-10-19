@@ -284,3 +284,95 @@ section { scroll-margin-top: 80px; }
   border-radius: 14px;
   white-space: pre-line;
 }
+
+.hero-avatar { display: none; }
+.bottom-nav { display: none; }
+
+.btn {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+  body { padding-bottom: 96px; }
+
+  /* top bar: just the logo and the theme button */
+  .nav { padding: 14px 16px; }
+  .nav nav a { display: none; }
+  .nav .theme-btn { margin-left: 0; }
+
+  /* hero becomes a simple centered column */
+  .hero {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+    padding: 90px 20px 110px;
+  }
+  .hero::before { display: none; }
+  .hero-char { display: none; }
+  .hero-avatar {
+    display: block;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 30%;
+    border: 2px solid var(--accent);
+    animation: breathe 5.5s ease-in-out infinite;
+  }
+  .hero-name, .hero-tag, .hero-projects, .hero-contact { position: static; }
+  .hero-name {
+    font-size: clamp(34px, 12vw, 56px);
+    white-space: normal;
+    letter-spacing: -1px;
+  }
+  .hero-tag { max-width: 280px; }
+
+  section { padding: 48px 16px; }
+  .contact-box { padding: 28px; }
+
+  /* projects become a swipeable row */
+  .projects-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .project-card { min-width: 82%; scroll-snap-align: start; }
+
+  /* floating bottom navigation */
+  .bottom-nav {
+    position: fixed;
+    left: 12px;
+    right: 12px;
+    bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    z-index: 20;
+    display: flex;
+    gap: 4px;
+    padding: 6px;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--card) 90%, transparent);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--border);
+  }
+  .bottom-nav a {
+    flex: 1;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .bottom-nav a.active { background: var(--accent); color: #fff; }
+}
