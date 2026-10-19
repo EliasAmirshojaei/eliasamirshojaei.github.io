@@ -1,0 +1,46 @@
+{
+  "nav.home": "خانه",
+  "nav.about": "درباره من",
+  "nav.projects": "پروژه‌ها",
+  "nav.skills": "مهارت‌ها",
+  "nav.contact": "تماس",
+
+  "theme.toLight": "روشن",
+  "theme.toDark": "تیره",
+
+  "hero.name": "سلام، من الیاس هستم",
+  "hero.tag": "دانشجوی مهندسی نرم‌افزار که پروژه‌های تمیز و کاربردی می‌سازد.",
+  "hero.projects": "دیدن پروژه‌ها",
+  "hero.contact": "تماس با من",
+
+  "about.label": "درباره من",
+  "about.title": "کمی درباره من",
+  "about.p1": "من دانشجوی مهندسی نرم‌افزار هستم و عاشق ساختن چیزهایی‌ام که هم درست کار کنند و هم خوب به نظر برسند.",
+  "about.p2": "الان در حال یادگرفتن و ساختن پروژه‌ها هستم تا مهارت‌هایم را رشد بدهم.",
+  "about.studying": "تحصیل",
+  "about.studying.v": "مهندسی نرم‌افزار",
+  "about.languages": "زبان‌ها",
+  "about.languages.v": "فارسی، انگلیسی، ایتالیایی (در حال یادگیری)",
+  "about.current": "در حال حاضر",
+  "about.current.v": "ساخت اولین پروژه‌هایم",
+
+  "projects.label": "پروژه‌ها",
+  "projects.title": "چیزهایی که ساخته‌ام",
+  "projects.thumb": "[ تصویر ]",
+  "projects.p1.desc": "یک ربات تلگرام که کارها را خودکار می‌کند.",
+  "projects.soon2": "پروژه ۲ · به‌زودی",
+  "projects.soon3": "پروژه ۳ · به‌زودی",
+
+  "skills.label": "مهارت‌ها",
+  "skills.title": "ابزارهایی که استفاده می‌کنم",
+  "skills.frontend": "فرانت‌اند",
+  "skills.backend": "بک‌اند",
+  "skills.tools": "ابزارها",
+  "skills.learning": "در حال یادگیری:",
+
+  "contact.title": "بیایید صحبت کنیم",
+  "contact.text": "برای کارآموزی و همکاری آماده‌ام. خوشحال می‌شوم پیام بدهید.",
+  "contact.email": "ایمیل بزنید",
+
+  "footer.text": "© ۲۰۲۶ الیاس امیرشجاعی"
+}

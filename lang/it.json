@@ -1,0 +1,46 @@
+{
+  "nav.home": "Home",
+  "nav.about": "Chi sono",
+  "nav.projects": "Progetti",
+  "nav.skills": "Competenze",
+  "nav.contact": "Contatti",
+
+  "theme.toLight": "Chiaro",
+  "theme.toDark": "Scuro",
+
+  "hero.name": "CIAO, SONO ELIAS",
+  "hero.tag": "Studente di ingegneria del software che crea progetti puliti e utili.",
+  "hero.projects": "Vedi i progetti",
+  "hero.contact": "Contattami",
+
+  "about.label": "Chi sono",
+  "about.title": "Qualcosa su di me",
+  "about.p1": "Sono uno studente di ingegneria del software e mi piace creare cose che funzionano bene e hanno un bell'aspetto.",
+  "about.p2": "Al momento sto imparando e realizzando progetti per far crescere le mie competenze.",
+  "about.studying": "Studio",
+  "about.studying.v": "Ingegneria del software",
+  "about.languages": "Lingue",
+  "about.languages.v": "Persiano, inglese, italiano (in apprendimento)",
+  "about.current": "Al momento",
+  "about.current.v": "Sto realizzando i miei primi progetti",
+
+  "projects.label": "Progetti",
+  "projects.title": "Cosa ho realizzato",
+  "projects.thumb": "[ Anteprima ]",
+  "projects.p1.desc": "Un bot di Telegram che automatizza alcune attività.",
+  "projects.soon2": "Progetto 2 · in arrivo",
+  "projects.soon3": "Progetto 3 · in arrivo",
+
+  "skills.label": "Competenze",
+  "skills.title": "Strumenti che uso",
+  "skills.frontend": "Frontend",
+  "skills.backend": "Backend",
+  "skills.tools": "Strumenti",
+  "skills.learning": "Sto imparando:",
+
+  "contact.title": "Parliamone",
+  "contact.text": "Disponibile per tirocini e collaborazioni. Scrivimi pure.",
+  "contact.email": "Scrivimi",
+
+  "footer.text": "© 2026 Elias Amirshojaei"
+}

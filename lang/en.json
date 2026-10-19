@@ -1,0 +1,46 @@
+{
+  "nav.home": "Home",
+  "nav.about": "About",
+  "nav.projects": "Projects",
+  "nav.skills": "Skills",
+  "nav.contact": "Contact",
+
+  "theme.toLight": "Light",
+  "theme.toDark": "Dark",
+
+  "hero.name": "HI, I'M ELIAS",
+  "hero.tag": "A software engineering student building clean, useful projects.",
+  "hero.projects": "View projects",
+  "hero.contact": "Contact me",
+
+  "about.label": "About",
+  "about.title": "A bit about me",
+  "about.p1": "I'm a software engineering student who loves building things that work and look good.",
+  "about.p2": "Right now I'm learning and building projects to grow my skills.",
+  "about.studying": "Studying",
+  "about.studying.v": "Software Engineering",
+  "about.languages": "Languages",
+  "about.languages.v": "Persian, English, Italian (learning)",
+  "about.current": "Currently",
+  "about.current.v": "Building my first projects",
+
+  "projects.label": "Projects",
+  "projects.title": "Things I've built",
+  "projects.thumb": "[ Screenshot ]",
+  "projects.p1.desc": "A Telegram bot that automates tasks.",
+  "projects.soon2": "Project 2 · coming soon",
+  "projects.soon3": "Project 3 · coming soon",
+
+  "skills.label": "Skills",
+  "skills.title": "Tools I use",
+  "skills.frontend": "Frontend",
+  "skills.backend": "Backend",
+  "skills.tools": "Tools",
+  "skills.learning": "Currently learning:",
+
+  "contact.title": "Let's talk",
+  "contact.text": "Open to internships and collaboration. Feel free to reach out.",
+  "contact.email": "Email me",
+
+  "footer.text": "© 2026 Elias Amirshojaei"
+}

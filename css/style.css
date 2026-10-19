@@ -376,3 +376,19 @@ section { scroll-margin-top: 80px; }
   }
   .bottom-nav a.active { background: var(--accent); color: #fff; }
 }
+
+.lang-switch { display: inline-flex; gap: 4px; margin-inline-start: 12px; }
+.lang-switch button {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 12px;
+  min-height: 40px;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.lang-switch button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+[dir="rtl"] body { font-family: "Vazirmatn", system-ui, sans-serif; }

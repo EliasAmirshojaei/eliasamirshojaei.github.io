@@ -4,130 +4,139 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Elias Amirshojaei</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="sky" id="sky"></div>
-    <canvas class="stars" id="stars"></canvas>
+  <div class="sky" id="sky"></div>
+  <canvas class="stars" id="stars"></canvas>
+
   <header class="nav">
     <a href="#home" class="logo">Elias.</a>
     <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-      <button id="theme-toggle" class="theme-btn" type="button">Light</button>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#projects" data-i18n="nav.projects">Projects</a>
+      <a href="#skills" data-i18n="nav.skills">Skills</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+      <button id="theme-toggle" class="theme-btn" type="button"></button>
+      <div class="lang-switch">
+        <button type="button" data-lang="en" class="active">EN</button>
+        <button type="button" data-lang="fa">FA</button>
+        <button type="button" data-lang="it">IT</button>
+      </div>
     </nav>
   </header>
 
   <main>
     <section id="home" class="hero">
-        <h1 class="hero-name">HI, I'M ELIAS</h1>
+      <h1 class="hero-name" data-i18n="hero.name">HI, I'M ELIAS</h1>
 
-        <div class="hero-char">
-            <img src="assets/character.jpg" alt="Elias's 3D character" width="1000" height="1000">
-        </div>
-        <img class="hero-avatar" src="assets/character.jpg" alt="Elias's 3D character" width="130" height="130">
+      <div class="hero-char">
+        <img src="assets/character.jpg" alt="Elias's 3D character" width="1000" height="1000">
+      </div>
+      <img class="hero-avatar" src="assets/character.jpg" alt="Elias's 3D character" width="130" height="130">
 
-        <p class="hero-tag">A software engineering student building clean, useful projects.</p>
-        <a href="#projects" class="btn hero-projects">View projects</a>
-        <a href="#contact" class="btn hero-contact">Contact me</a>
+      <p class="hero-tag" data-i18n="hero.tag">A software engineering student building clean, useful projects.</p>
+      <a href="#projects" class="btn hero-projects" data-i18n="hero.projects">View projects</a>
+      <a href="#contact" class="btn hero-contact" data-i18n="hero.contact">Contact me</a>
     </section>
+
     <section id="about">
-  <div class="container">
-    <p class="section-label">About</p>
-    <h2 class="section-title">A bit about me</h2>
+      <div class="container">
+        <p class="section-label" data-i18n="about.label">About</p>
+        <h2 class="section-title" data-i18n="about.title">A bit about me</h2>
 
-    <div class="about-grid">
-      <div class="about-text">
-        <p>I'm a software engineering student who loves building things that work and look good. [Write 2 or 3 more sentences about yourself here.]</p>
-        <p>Right now I'm learning [what you are learning] and building projects to grow my skills.</p>
-      </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p data-i18n="about.p1">I'm a software engineering student who loves building things that work and look good.</p>
+            <p data-i18n="about.p2">Right now I'm learning and building projects to grow my skills.</p>
+          </div>
 
-      <div class="card">
-        <ul class="info-list">
-          <li><span>Studying</span> Software Engineering</li>
-          <li><span>Languages</span> Persian, English, Italian (learning)</li>
-          <li><span>Currently</span> Building my first projects</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="projects">
-  <div class="container">
-    <p class="section-label">Projects</p>
-    <h2 class="section-title">Things I've built</h2>
-
-    <div class="projects-grid">
-      <article class="project-card">
-        <div class="project-thumb">[ Screenshot ]</div>
-        <div class="project-body">
-          <h3>Nexa Bot</h3>
-          <p>A Telegram bot that automates [what it does].</p>
-          <div class="chips"><span>Python</span><span>Telegram API</span></div>
+          <div class="card">
+            <ul class="info-list">
+              <li><span data-i18n="about.studying">Studying</span><strong data-i18n="about.studying.v">Software Engineering</strong></li>
+              <li><span data-i18n="about.languages">Languages</span><strong data-i18n="about.languages.v">Persian, English, Italian (learning)</strong></li>
+              <li><span data-i18n="about.current">Currently</span><strong data-i18n="about.current.v">Building my first projects</strong></li>
+            </ul>
+          </div>
         </div>
-      </article>
+      </div>
+    </section>
 
-      <article class="project-card soon">Project 2 · coming soon</article>
-      <article class="project-card soon">Project 3 · coming soon</article>
-    </div>
-  </div>
-</section>
+    <section id="projects">
+      <div class="container">
+        <p class="section-label" data-i18n="projects.label">Projects</p>
+        <h2 class="section-title" data-i18n="projects.title">Things I've built</h2>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-thumb" data-i18n="projects.thumb">[ Screenshot ]</div>
+            <div class="project-body">
+              <h3>Nexa Bot</h3>
+              <p data-i18n="projects.p1.desc">A Telegram bot that automates tasks.</p>
+              <div class="chips"><span>Python</span><span>Telegram API</span></div>
+            </div>
+          </article>
+
+          <article class="project-card soon" data-i18n="projects.soon2">Project 2 · coming soon</article>
+          <article class="project-card soon" data-i18n="projects.soon3">Project 3 · coming soon</article>
+        </div>
+      </div>
+    </section>
+
     <section id="skills">
-  <div class="container">
-    <p class="section-label">Skills</p>
-    <h2 class="section-title">Tools I use</h2>
+      <div class="container">
+        <p class="section-label" data-i18n="skills.label">Skills</p>
+        <h2 class="section-title" data-i18n="skills.title">Tools I use</h2>
 
-    <div class="skills-grid">
-      <div class="card">
-        <h3>Frontend</h3>
-        <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-      </div>
-      <div class="card">
-        <h3>Backend</h3>
-        <div class="chips"><span>Python</span><span>PHP</span></div>
-      </div>
-      <div class="card">
-        <h3>Tools</h3>
-        <div class="chips"><span>Git</span><span>GitHub</span><span>VS Code</span></div>
-      </div>
-    </div>
+        <div class="skills-grid">
+          <div class="card">
+            <h3 data-i18n="skills.frontend">Frontend</h3>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+          <div class="card">
+            <h3 data-i18n="skills.backend">Backend</h3>
+            <div class="chips"><span>Python</span><span>PHP</span></div>
+          </div>
+          <div class="card">
+            <h3 data-i18n="skills.tools">Tools</h3>
+            <div class="chips"><span>Git</span><span>GitHub</span><span>VS Code</span></div>
+          </div>
+        </div>
 
-    <div class="learning">
-      Currently learning:
-      <span>[Next skill]</span>
-      <span>[Next skill]</span>
-    </div>
-  </div>
-</section>
+        <div class="learning">
+          <b style="font-weight: 400" data-i18n="skills.learning">Currently learning:</b>
+          <span>[Next skill]</span>
+          <span>[Next skill]</span>
+        </div>
+      </div>
+    </section>
 
-<section id="contact">
-  <div class="container">
-    <div class="contact-box">
-      <div>
-        <h2 class="section-title">Let's talk</h2>
-        <p class="contact-text">Open to internships and collaboration. Feel free to reach out.</p>
+    <section id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div>
+            <h2 class="section-title" data-i18n="contact.title">Let's talk</h2>
+            <p class="contact-text" data-i18n="contact.text">Open to internships and collaboration. Feel free to reach out.</p>
+          </div>
+          <div class="contact-links">
+            <a class="btn" href="mailto:your@email.com" data-i18n="contact.email">Email me</a>
+            <a class="btn btn-ghost" href="https://github.com/EliasAmirshojaei" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
       </div>
-      <div class="contact-links">
-        <a class="btn" href="mailto:your@email.com">Email me</a>
-        <a class="btn btn-ghost" href="https://github.com/EliasAmirshojaei" target="_blank" rel="noopener">GitHub</a>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
   </main>
 
-  <footer class="footer">© 2026 Elias Amirshojaei</footer>
+  <footer class="footer" data-i18n="footer.text">© 2026 Elias Amirshojaei</footer>
 
   <nav class="bottom-nav" aria-label="Quick navigation">
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#projects">Projects</a>
-  <a href="#skills">Skills</a>
-  <a href="#contact">Contact</a>
-</nav>
+    <a href="#home" data-i18n="nav.home">Home</a>
+    <a href="#about" data-i18n="nav.about">About</a>
+    <a href="#projects" data-i18n="nav.projects">Projects</a>
+    <a href="#skills" data-i18n="nav.skills">Skills</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+  </nav>
 
   <script src="js/background.js"></script>
   <script src="js/main.js"></script>
